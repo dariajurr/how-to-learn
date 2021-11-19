@@ -75,17 +75,14 @@
   z-index: 1;
 }
 
-.header__square-pic {
-  position: absolute;
-  top: 64px;
-  right: 0;
-  background: #2f80ed;
-}
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background: #2f80ed;
 }
 
 .description {
@@ -106,7 +103,6 @@
   font-weight: normal;
   margin: 0;
   color: #2f80ed;
-  ;
 }
 
 .two-columns__main-text {
@@ -115,7 +111,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
 }
 
 .span-accent {
