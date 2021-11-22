@@ -10,12 +10,6 @@
 
 }
 
-.title_size_m {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-}
-
 .header {
   position: relative;
   height: 100vh;
@@ -131,12 +125,14 @@
 }
 
 .section-title {
+  position: relative;
   width: 60%;
   margin: 0 auto 20px;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -167,14 +163,13 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin: 0 0 20px;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 0 20px;
+  margin: 20px 0 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -258,14 +253,18 @@
 
 }
 
-.footer__column_content_copyright {
-  flex-basis: 711px;
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
 .logo_place_footer {
+  height: 35px;
   background: url('../images/logo_place_footer.svg');
 }
 
